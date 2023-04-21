@@ -30,3 +30,9 @@ BinaryData
 
 Events:  <none>
 ```
+
+### 使用terraform建立的ec2 profile，有時候在terraform destroy時會沒刪除profile，所以只好手動刪除
+* https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage_delete.html#id_roles_manage_delete_slr
+```sh
+aws iam delete-instance-profile --instance-profile-name instance-profile-name
+```

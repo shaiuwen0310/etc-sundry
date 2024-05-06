@@ -1,4 +1,5 @@
 # shell-command記錄
+## 以下為linux指令，mac不適用
 ### 查找並替換字串
 * 將路徑下所有檔案中有string1的字串都替換成string2
 	```sh
